@@ -1,0 +1,45 @@
+/* reservation CSS */
+#reservation {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    border: 2px solid orangered; /* Ajout de la bordure */
+    border-radius: 10px; /* Ajout de la bordure arrondie */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ajout d'une légère ombre */
+}
+
+#reservation form {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    border-radius: 6px;
+    flex-direction: column;
+    width: 350px;
+}
+
+#reservation form label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+#reservation form input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    outline: 0;
+}
+
+#reservation form input:focus {
+    outline: 1px solid orangered;
+}
+
+#reservation form input[type="submit"] {
+    margin-top: 15px;
+    color: #fff;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
